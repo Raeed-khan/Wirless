@@ -25,9 +25,9 @@
 
 ---
 
-## About RAEED-SYSTEMS
+## About Developer-Raeed khan
 
-**RAEED-SYSTEMS** is a lightweight, menu-driven Wireless Interface Diagnostics & Automation Suite. Designed specifically for network security research and local lab validation environments, this framework automates complex wireless auditing tasks like monitor mode activation, environmental scanning, and dual-mode deauthentication testing (Targeted & Mass Attack).
+**Developer-Raeed khan** is a lightweight, menu-driven Wireless Interface Diagnostics & Automation Suite. Designed specifically for network security research and local lab validation environments, this framework automates complex wireless auditing tasks like monitor mode activation, environmental scanning, and dual-mode deauthentication testing (Targeted & Mass Attack).
 
 > **Academic Project:** Developed by **Raeed Khan** as part of an academic research initiative at the *University of Buner, Swari, KPK*.
 
