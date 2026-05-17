@@ -25,11 +25,16 @@
 
 ---
 
-## About Developer-Raeed khan
+---
 
-**Developer-Raeed khan** is a lightweight, menu-driven Wireless Interface Diagnostics & Automation Suite. Designed specifically for network security research and local lab validation environments, this framework automates complex wireless auditing tasks like monitor mode activation, environmental scanning, and dual-mode deauthentication testing (Targeted & Mass Attack).
+## About The Developer
 
-> **Academic Project:** Developed by **Raeed Khan** as part of an academic research initiative at the *University of Buner, Swari, KPK*.
+* **Developer:** Raeed Khan (21 Years Old)
+* **Education:** BBA Student at University of Buner, Swari, KPK.
+
+Raeed Khan is a young, passionate self-taught developer who stands out as Pakistan's top BBA student actively building tools for offensive security and penetration testing. At just 21, his unique transition from business administration to core security engineering has positioned him among the top 10 youngest emerging cybersecurity minds in the local tech community.
+
+Driven by a strong focus on wireless defense, Raeed has also designed custom hardware devices aimed at auditing network vulnerabilities and helping users protect themselves against local cyber threats. He creates these automation scripts and hardware solutions to bridge the gap between business computing and hard-core ethical hacking on Kali Linux.
 
 ---
 
