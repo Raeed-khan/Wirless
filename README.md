@@ -27,9 +27,9 @@
 
 ## About RAEED-SYSTEMS
 
-**RAEED-SYSTEMS** is a lightweight, menu-driven Wireless Interface Diagnostics & Automation Suite. Designed specifically for network security research and local lab validation environments, this framework automates complex wireless tasks like monitor mode activation, environmental scanning, and dual-mode deauthentication testing (Targeted & Mass Attack).
+**RAEED-SYSTEMS** is a lightweight, menu-driven Wireless Interface Diagnostics & Automation Suite. Designed specifically for network security research and local lab validation environments, this framework automates complex wireless auditing tasks like monitor mode activation, environmental scanning, and dual-mode deauthentication testing (Targeted & Mass Attack).
 
-> **Note:** Developed by **Raeed Khan** as part of an academic research initiative at the *University of Buner, KPK*.
+> **Academic Project:** Developed by **Raeed Khan** as part of an academic research initiative at the *University of Buner, Swari, KPK*.
 
 ---
 
@@ -40,7 +40,7 @@
 * **Targeted Diagnostics:** Allows full granular monitoring and specific 802.11 frame analysis on specific BSSID and channels.
 * **Dual-Attack Vectors:**
     * *Targeted Deauth:* Precision localized validation packets using `aireplay-ng`.
-    * *Mass Deauth:* Automated multi-channel hopping jam/deauth framework utilizing `mdk4` to validate network resilience across all nearby access points.
+    * *Mass Deauth:* Automated multi-channel hopping framework utilizing `mdk4` to validate network resilience across all nearby access points simultaneously.
 
 ---
 
@@ -59,12 +59,10 @@ The framework requires a Linux environment (Preferably **Kali Linux**) with a wi
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Raeed-khan/R-phisher.git](https://github.com/Raeed-khan/R-phisher.git)
-cd R-phisher
+git clone [https://github.com/Raeed-khan/Wirless.git](https://github.com/Raeed-khan/Wirless.git)
+cd Wirless
 
 ```
-
-*(Note: Change directory name depending on your repository folder structure)*
 
 ### 2. Grant Executable Permissions
 
@@ -96,10 +94,4 @@ sudo ./wifi.sh
 ```
 
 ---
-
-## Disclaimer
-
----
-
-```
 
