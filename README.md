@@ -1,104 +1,205 @@
-<p align="center">
-<pre align="center">
-  _____         ______ ______ _____  
- |  __ \    /\    |  ____|  ____|  __ \ 
- | |__) |  /  \   | |__   | |__   | |  | |
- |  _  /  / /\ \  |  __|  |  __|  | |  | |
- | | \ \ / ____ \ | |____ | |____ | |__| |
- |_|  \_/_/    \_\______|______|_____/  
-                                        
-   𝖢𝖤𝖱𝖳𝖨𝖋𝖨𝖤𝖣  𝖤𝖳𝖧𝖨𝖢𝖠𝖫  𝖧𝖠𝖢𝖪𝖤𝖱
-</pre>
-</p>
+# 🐉 RAEED | WIRELESS AUDITING SUITE
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.0-orange?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Type-Wireless%20Auditing-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Platform-Kali%20Linux-blue?style=for-the-badge">
-</p>
+<!-- ==================== CYBER DRAGON HERO ==================== -->
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Developer-Raeed%20Khan-green?style=flat-square">
-  <img src="https://img.shields.io/badge/Department-BBA%20University%20of%20Buner-lightblue?style=flat-square">
-  <img src="https://img.shields.io/badge/Architecture-Automation%20Suite-darkcyan?style=flat-square">
-</p>
-
----
-
-<!-- ==================== HEADER BANNER ==================== -->
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:050505,50:8b0000,100:00FF41&height=220&section=header&text=WIRELESS%20AUDITING%20SUITE&fontSize=40&fontColor=00FF41&fontAlignY=45&animation=fadeIn&desc=ADVANCED%20802.11%20SECURITY%20FRAMEWORK&descSize=15&descColor=ffffff" width="100%" />
-</div>
-
----
-
-<!-- ==================== 3D DEVELOPER SECTION ==================== -->
 <div align="center">
 
-<h2 align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="45">
-  LEAD ARCHITECT & DEVELOPER
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="45">
-</h2>
+<!-- Upload the generated artwork to assets/wireless-banner.png -->
+
+<img src="assets/wireless-banner.png" width="100%" alt="Raeed Wireless Auditing Suite - Cyber Dragon Edition"/>
 
 <br/>
 
-<table width="100%" style="border: none;">
-<tr>
-<td align="center" style="border: 2px solid #00FF41; border-radius: 15px; padding: 25px; background: linear-gradient(135deg, #0D1117 0%, #1a1a2e 100%);">
-
-<h2>🧑‍💻 RAEED KHAN (21 Years Old)</h2>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=450&lines=BBA+STUDENT+AT+UNIVERSITY+OF+BUNER;+TOP+EMERGING+CYBERSECURITY+MIND;+OFFENSIVE+SECURITY+DEVELOPER;+WIRELESS+DEFENSE+SPECIALIST" alt="Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=20&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=850&lines=INITIALIZING+WIRELESS+AUDITING+SYSTEM...;ADVANCED+802.11+SECURITY+FRAMEWORK;KALI+LINUX+%7C+WIRELESS+RESEARCH;BUILT+BY+RAEED+KHAN"/>
 
 <br/><br/>
 
-<p>
-  <img src="https://img.shields.io/badge/Developer-Raeed%20Khan-green?style=for-the-badge&logo=hackthebox&logoColor=black" />
-  <img src="https://img.shields.io/badge/Education-BBA%20UOB-blue?style=for-the-badge&logo=graduation-cap&logoColor=white" />
-  <img src="https://img.shields.io/badge/Location-Pakistan_🇵🇰-darkgreen?style=for-the-badge" />
-</p>
+<img src="https://img.shields.io/badge/VERSION-1.0.0-00FF41?style=for-the-badge&labelColor=050505"/>
+<img src="https://img.shields.io/badge/TYPE-WIRELESS%20AUDITING-00BFFF?style=for-the-badge&labelColor=050505"/>
+<img src="https://img.shields.io/badge/PLATFORM-KALI%20LINUX-FF0080?style=for-the-badge&labelColor=050505"/>
 
 <br/>
 
-<p align="left" style="padding: 0 20px;">
-  Raeed Khan is a young, passionate self-taught developer who stands out as Pakistan's top BBA student actively building tools for offensive security and penetration testing. At just 21, his unique transition from business administration to core security engineering has positioned him among the top youngest emerging cybersecurity minds in the local tech community.<br><br>
-  Driven by a strong focus on wireless defense, Raeed has also designed custom hardware devices aimed at auditing network vulnerabilities and helping users protect themselves against local cyber threats. He creates these automation scripts and hardware solutions to bridge the gap between business computing and hard-core ethical hacking on Kali Linux.
-</p>
-
-</td>
-</tr>
-</table>
+<img src="https://img.shields.io/badge/DEVELOPER-RAEED%20KHAN-00FF41?style=flat-square"/>
+<img src="https://img.shields.io/badge/EDUCATION-BBA%20%7C%20UOB-0080FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/ARCHITECTURE-AUTOMATION%20SUITE-FF00FF?style=flat-square"/>
 
 </div>
 
 ---
 
-## ⚡ Core Features
+<!-- ==================== PROJECT INTRODUCTION ==================== -->
 
-- **Automated Interface Diagnostics:** Instantly switches wireless cards into Monitor Mode (`airmon-ng`) with pre-execution environment checks.
-- **Process Management:** Clears conflicting network management daemons automatically to prevent packet dropping.
-- **Targeted Diagnostics:** Allows full granular monitoring and specific 802.11 frame analysis on specific BSSID and channels.
-- **Dual-Attack Vectors:**
-    - *Targeted Deauth:* Precision localized validation packets using `aireplay-ng`.
-    - *Mass Deauth:* Automated multi-channel hopping framework utilizing `mdk4` to validate network resilience across all nearby access points simultaneously.
+<div align="center">
 
----
+## 🐉 ENTER THE WIRELESS MATRIX
 
-## 🛠️ System Requirements
+### `OBSERVE • ANALYZE • AUDIT • PROTECT`
 
-The framework requires a Linux environment (Preferably **Kali Linux**) with a wireless network adapter capable of **Monitor Mode** and **Packet Injection** (e.g., adapters running Alfa, Realtek, or Atheros chipsets).
+</div>
 
-### Dependencies
-- `aircrack-ng` suite
-- `mdk4`
-- `bash` (Root/Sudo access required)
+**RAEED Wireless Auditing Suite** is a Linux-based wireless security auditing framework designed for authorized 802.11 network assessment, wireless interface diagnostics, and security research.
+
+Developed with automation-focused architecture, it brings together wireless diagnostic utilities and network monitoring capabilities in one environment.
 
 ---
 
-## 🚀 Installation & Usage
+<!-- ==================== DEVELOPER PROFILE ==================== -->
 
-### 1. Clone the Repository
+<div align="center">
+
+## 👨‍💻 LEAD ARCHITECT & DEVELOPER
+
+<img src="https://img.shields.io/badge/RAEED%20KHAN-LEAD%20DEVELOPER-00FF41?style=for-the-badge&labelColor=050505"/>
+
+<br/><br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=600&lines=BBA+STUDENT+AT+UNIVERSITY+OF+BUNER;CYBERSECURITY+RESEARCHER;OFFENSIVE+SECURITY+ENTHUSIAST;WIRELESS+SECURITY+DEVELOPER"/>
+
+<br/>
+
+<img src="https://img.shields.io/badge/DEVELOPER-RAEED%20KHAN-00FF41?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/EDUCATION-BBA%20UOB-0080FF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/COUNTRY-PAKISTAN-009966?style=for-the-badge"/>
+
+</div>
+
+Raeed Khan is a self-taught developer and cybersecurity enthusiast with an interest in wireless security, Linux environments, automation, and penetration-testing research.
+
+His work combines business administration knowledge with practical technical exploration to develop security tools and contribute to a safer digital environment.
+
+---
+
+<!-- ==================== CORE FEATURES ==================== -->
+
+<div align="center">
+
+## ⚡ CORE SYSTEM FEATURES
+
+</div>
+
+| Feature | Description |
+|---|---|
+| ⚙️ Automated Interface Diagnostics | Wireless adapter detection and Monitor Mode preparation with pre-execution checks. |
+| 🛡️ Process Management | Identifies conflicting network management processes. |
+| 📡 Targeted Diagnostics | Wireless monitoring and specific BSSID/channel analysis. |
+| 🎯 Targeted Testing | Controlled wireless security validation in authorized environments. |
+| 🌐 Network Resilience Research | Research-oriented assessment of wireless network resilience. |
+| 🔧 Automation Framework | Integrates wireless diagnostic utilities into a streamlined workflow. |
+
+---
+
+<!-- ==================== VISUAL SYSTEM ==================== -->
+
+<div align="center">
+
+## 📡 WIRELESS SECURITY RESEARCH
+
+<img src="https://img.shields.io/badge/802.11-WIRELESS%20NETWORKS-00FF41?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LINUX-SECURITY-00BFFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RESEARCH-NETWORK%20ANALYSIS-FF00FF?style=for-the-badge"/>
+
+</div>
+
+---
+
+## 🛠️ SYSTEM REQUIREMENTS
+
+The framework requires a Linux environment, preferably **Kali Linux**, with a compatible wireless adapter.
+
+**Hardware requirements:**
+- Wireless adapter supporting Monitor Mode.
+- Packet Injection support for applicable authorized testing.
+- Compatible Alfa, Realtek, or Atheros-based adapters.
+
+**Software requirements:**
+
+| Dependency | Purpose |
+|---|---|
+| `aircrack-ng` | Wireless diagnostics |
+| `mdk4` | Wireless security research |
+| `bash` | Shell automation |
+| `sudo` | Administrative operations |
+
+---
+
+## 🚀 INSTALLATION & SETUP
+
+### 01 — Clone Repository
+
 ```bash
-git clone [https://github.com/Raeed-khan/Wirless.git](https://github.com/Raeed-khan/Wirless.git)
+git clone https://github.com/Raeed-khan/Wirless.git
+```
+
+### 02 — Navigate to Project
+
+```bash
 cd Wirless
+```
+
+### 03 — Check Dependencies
+
+```bash
+sudo apt update
+sudo apt install aircrack-ng mdk4
+```
+
+### 04 — Inspect Project Files
+
+```bash
+ls -la
+```
+
+### 05 — Review Permissions
+
+```bash
+chmod +x *.sh
+```
+
+<caption>Only apply executable permissions to the project's intended shell scripts.</caption>
+
+---
+
+## 🧬 PROJECT ARCHITECTURE
+
+```text
+WIRELESS-AUDITING-SUITE/
+│
+├── OP-PT/              # Operational project resources
+├── LICENSE             # License information
+├── README.md           # Project documentation
+│
+└── assets/
+    └── wireless-banner.png
+```
+
+---
+
+## 🛡️ ETHICAL SECURITY NOTICE
+
+This framework is intended for:
+
+- Authorized wireless security assessments.
+- Educational cybersecurity research.
+- Testing personally owned laboratory networks.
+- Wireless diagnostics and network resilience studies.
+
+**Important:** Never conduct wireless testing against networks or devices without explicit authorization. Unauthorized disruption of wireless communications may violate applicable laws.
+
+---
+
+<!-- ==================== DEVELOPER FOOTER ==================== -->
+
+<div align="center">
+
+## 🌊 HACK SMART. STAY ETHICAL.
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=21&duration=2500&pause=900&color=00FF41&center=true&vCenter=true&width=750&lines=EXPLORE+THE+WIRELESS+WORLD;BUILD+WITH+INNOVATION;SECURE+WITH+KNOWLEDGE;RAEED+KHAN+%7C+WIRELESS+AUDITING"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,35:003b18,70:00FF41,100:050505&height=160&section=footer&text=RAEED%20KHAN&fontSize=48&fontColor=FFFFFF&animation=twinkling&desc=WIRELESS%20SECURITY%20RESEARCHER&descSize=15&descColor=FFFFFF" width="100%"/>
+
+**⚡ RESEARCH • AUTOMATION • INNOVATION ⚡**
+
+</div>
