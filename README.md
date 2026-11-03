@@ -32,14 +32,45 @@
 
 ---
 
-## 👨‍💻 About The Developer
+<!-- ==================== 3D DEVELOPER SECTION ==================== -->
+<div align="center">
 
-- **Developer:** Raeed Khan (21 Years Old)
-- **Education:** BBA Student at University of Buner, Swari, KPK.
+<h2 align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="45">
+  LEAD ARCHITECT & DEVELOPER
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="45">
+</h2>
 
-Raeed Khan is a young, passionate self-taught developer who stands out as Pakistan's top BBA student actively building tools for offensive security and penetration testing. At just 21, his unique transition from business administration to core security engineering has positioned him among the top 10 youngest emerging cybersecurity minds in the local tech community.
+<br/>
 
-Driven by a strong focus on wireless defense, Raeed has also designed custom hardware devices aimed at auditing network vulnerabilities and helping users protect themselves against local cyber threats. He creates these automation scripts and hardware solutions to bridge the gap between business computing and hard-core ethical hacking on Kali Linux.
+<table width="100%" style="border: none;">
+<tr>
+<td align="center" style="border: 2px solid #00FF41; border-radius: 15px; padding: 25px; background: linear-gradient(135deg, #0D1117 0%, #1a1a2e 100%);">
+
+<h2>🧑‍💻 RAEED KHAN (21 Years Old)</h2>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=450&lines=BBA+STUDENT+AT+UNIVERSITY+OF+BUNER;+TOP+EMERGING+CYBERSECURITY+MIND;+OFFENSIVE+SECURITY+DEVELOPER;+WIRELESS+DEFENSE+SPECIALIST" alt="Typing" />
+
+<br/><br/>
+
+<p>
+  <img src="https://img.shields.io/badge/Developer-Raeed%20Khan-green?style=for-the-badge&logo=hackthebox&logoColor=black" />
+  <img src="https://img.shields.io/badge/Education-BBA%20UOB-blue?style=for-the-badge&logo=graduation-cap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Location-Pakistan_🇵🇰-darkgreen?style=for-the-badge" />
+</p>
+
+<br/>
+
+<p align="left" style="padding: 0 20px;">
+  Raeed Khan is a young, passionate self-taught developer who stands out as Pakistan's top BBA student actively building tools for offensive security and penetration testing. At just 21, his unique transition from business administration to core security engineering has positioned him among the top youngest emerging cybersecurity minds in the local tech community.<br><br>
+  Driven by a strong focus on wireless defense, Raeed has also designed custom hardware devices aimed at auditing network vulnerabilities and helping users protect themselves against local cyber threats. He creates these automation scripts and hardware solutions to bridge the gap between business computing and hard-core ethical hacking on Kali Linux.
+</p>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
